@@ -2,6 +2,13 @@ This example uses the Jsch library to connect and to do sftp operations.
 
 we do have other libraries available to perform same operations.
 
+Maven library:
+		<dependency>
+			<groupId>com.jcraft</groupId>
+			<artifactId>jsch</artifactId>
+			<version>0.1.55</version>
+		</dependency>
+
 steps:
 
 step 1:

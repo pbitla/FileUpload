@@ -24,6 +24,12 @@ public class FileUpload {
 			session.setPassword("testing");
 			java.util.Properties config = new java.util.Properties();
 			config.put("StrictHostKeyChecking", "no");
+			
+			// if you have proxy
+			//ProxyHTTP  proxy = new ProxyHTTP("HOST_NAME",PORT_NUMBER)
+			//proxy.setUserPasswd("username","password");
+			//session.setProxy(proxy);
+			
 			session.setConfig(config);
 			session.connect();
 			channel = session.openChannel("sftp");

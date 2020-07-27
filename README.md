@@ -17,6 +17,8 @@ docker run -p 22:22 -d atmoz/sftp foo:pass:::upload
 
 step 2:
 change config params in the code
+and also
+local file path also.
 
 step 3:
 use filezilla to view the uploaded files
